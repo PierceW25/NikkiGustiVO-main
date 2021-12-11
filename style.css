@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #4B4453;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header h2 {
+    align-self: center;
+    font-size: 45px;
+    font-weight: normal;
+    transition: .2s ease all;
+}
+
+header h2:hover {
+    transition: .2s ease all;
+    opacity: .8;
+    cursor: pointer;
+}
+
+header a {
+    color: #B0A8B9;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .2s ease all;
+    cursor: pointer;
+}
+
+header a:hover {
+    transition: .2s ease all;
+    opacity: .8;
+}
+
+header h2 > a {
+    color: white;
+    align-self: center;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+header .bio {
+    align-self: center;
+    float: left;
+    margin-right: 3%;
+}
+
+header .test {
+    align-self: center;
+    float: right;
+    margin-left: 3%;
+}
+
+header span {
+    color: white;
+    font-weight: 700;
+}
+
+header img {
+    margin-top: 70%;
+    width: 60px;
+    height: 60px;
+}
+
+.header-twitt {
+    margin-right: 1%;
+}
+
+.header-ig {
+    margin-left: 1%;
+}
+
+
+
+.hero {
+    width: 100%;
+    height: 350px;
+    margin: 40px auto auto 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #845EC2;
+    clip-path: polygon(100% 6%, 100% 94%, 0 76%, 0 24%);
+    border: 1px solid #845EC2;
+}
+
+.hero > img {
+    width: 222px;
+    height: 222px;
+    align-self: center;
+    border-radius: 50%;
+    float: left;
+    margin-left: 23%;
+}
+
+.hero > h1 {
+    margin-right: 23%;
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: #4B4453;
+    overflow-x: hidden;
+    overflow-y: visible;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+body > h2 {
+    width: 85%;
+    font-size: 28px;
+    margin: 40px auto 40px auto;
+}
+
+body li {
+    margin-top: 50px auto 30px auto;
+    font-size: 25px;
+}
+
+body audio {
+    margin: 30px auto 100px auto;
+    width: 40%;
+}
+
+.quotes {
+    margin: 30px auto auto auto;
+    background-color: #B0A8B9;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quotes p {
+    color: white;
+    align-self: center;
+    font-size: 45px;
+    padding-top: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+form {
+    width: 85%;
+    border-radius: 15px;
+    margin: 80px auto 30px auto;
+    text-align: center;
+    color: white;
+    background-color: #845EC2;
+}
+
+form h2 {
+    padding-top: 25px;
+    color: white;
+    font-size: 30px;
+}
+
+ input[type=text], input[type=textarea] {
+    width: 50%;
+    height: 25px;
+    text-align: left;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+    font-size: 22px;
+    color: white;
+    border: solid 2px white;
+    background-color: #845EC2;
+    display: block;
+    margin: auto;
+}
+
+#message {
+    width: 65%;
+    height: 180px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    text-align: left;
+    vertical-align: top;
+    font-size: 22px;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 22px;
+    text-align: left;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    font-size: 22px;
+    text-align: left;
+  }
+
+input[type=submit] {
+   width: 150px;
+   margin: 25px auto 60px auto;
+   line-height: 2px;
+   overflow-x: visible;
+   border: none;
+   background-color: #C34A36;
+   color: white;
+   border-radius: 10px;
+   font-size: 15px;
+   padding: 20px 20px;
+   box-sizing: border-box;
+   transition: .2s ease all;
+}
+
+input[type=submit]:hover {
+    opacity: .8;
+    transition: .2s ease all;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 80px;
+    width: 100%;
+    height: 250px;
+    max-height: 450px;
+    height: 100vh;
+    background-color: #0089BA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 50vh 0 50vh #000;
+}
+
+footer ul {
+    margin-top: 15px;
+    align-self: center;
+    list-style-type: none;
+}
+
+footer > img {
+    margin-top: -40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10% auto 195px auto;
+    
+}
+
+.contacts {
+    text-align: left;
+    float: left;
+    margin: 15% auto 195px 90px;
+}
+
+.contacts li {
+    color: white;
+    font-size: 20px;
+}
+
+.socials {
+    display: flex;
+    float: right;
+    margin: 11% 90px 165px auto;
+}
+
+.socials li {
+    display: block;
+    margin: 30px 5px 30px 0;
+}
+
+.socials img {
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
