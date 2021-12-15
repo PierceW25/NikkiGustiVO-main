@@ -12,6 +12,7 @@ body h1 {
     text-align: center;
     font-size: 22px;
     width: 70ch;
+    max-width: 80%;
 }
 
 
