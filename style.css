@@ -138,9 +138,16 @@ body li {
     font-size: 25px;
 }
 
-body audio {
+.audio1, .audio2 {
     margin: 30px auto 100px auto;
     width: 40%;
+    height: 40px;
+}
+
+body audio {
+    width: 100% !important;
+    min-height: 30px;
+    display: block;
 }
 
 .quotes {
@@ -301,9 +308,8 @@ footer > img {
     transition: .2s ease all;
 }
 
-@media only screen and(max-width: 450px) {
+@media only screen and (max-width: 450px) {
     body audio {
-        margin-left: 50%;
-        transform: translateX(-50%);
+        margin-left: 90%;
     }
 }
