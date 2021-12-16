@@ -1,20 +1,3 @@
-<?php
-
-
-if($_POST["message"]) {
-
-
-mail("your@email.address", "Here is the subject line",
-
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-
-}
-
-
-?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -62,7 +45,7 @@ $_POST["insert your message here"]. "From: an@email.address");
             <div class="quotes">
                 <p>"Authentic Conversational Speaking Style"</p>
             </div>
-        <form class="email-me" method="post" action="subscriberform.php">
+        <form class="email-me" method="POST" action="https://formsubmit.co/your@email.com">
             <h2>Contact Me!</h2>
             <br>
             <input type="text" id="name" name="name" placeholder="Full Name">
