@@ -140,7 +140,7 @@ body li {
 
 body audio {
     margin: 30px auto 100px auto;
-    width: 40%;
+    width: 40% !important;
 }
 
 .quotes {
