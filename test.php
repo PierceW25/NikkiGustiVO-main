@@ -8,11 +8,11 @@
     </head>
 
     <header>
-        <h3 class="bio"><a href="bio.html">Biography</a></h3>
+        <h3 class="bio"><a href="bio.php">Biography</a></h3>
             <a class="header-twitt" href="https://twitter.com/Taste_My_Voices" target="_blank"><img src="https://piercew25.github.io//NikkiGustiVO-main/audio/673524.png"></a>
-            <h2><a href="index.html">TasteMy<span>Voice</span></a></h2>
+            <h2><a href="index.php">TasteMy<span>Voice</span></a></h2>
             <a class="header-ig" href="https://www.instagram.com/teqillakween/" target="_blank"><img src="https://piercew25.github.io//NikkiGustiVO-main/audio/1491579602-yumminkysocialmedia36_83067.png"></a>
-            <h3 class="test"><a href="test.html">Testimonials</a></h3>
+            <h3 class="test"><a href="test.php">Testimonials</a></h3>
     </header>
     
     <body>
