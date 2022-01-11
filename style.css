@@ -99,7 +99,7 @@ header img {
     justify-content: space-between;
     background-color: #8C6580;
     clip-path: polygon(100% 6%, 100% 94%, 0 76%, 0 24%);
-    border: 1px solid #00ACDE;
+    border: 1px solid #8C6580;
 }
 
 .hero > img {
