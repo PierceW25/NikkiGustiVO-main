@@ -250,7 +250,7 @@ footer {
     border: 3px solid #8C6580;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     box-shadow: 0 50vh 0 50vh #000;
 }
 
@@ -261,32 +261,29 @@ footer ul {
 }
 
 footer > img {
-    position: relative;
+    align-self: center;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin: 5% auto 10% 10%;
 }
 
 .contacts {
     text-align: left;
-    float: left;
-    margin: 15% auto 195px 90px;
+    width: 500px;
 }
 
 .contacts li {
     color: white;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .socials {
+    width: 500px;
     display: flex;
-    float: right;
-    margin: 11% 90px 165px auto;
 }
 
 .socials li {
-    display: block;
     margin: 30px 5px 30px 0;
 }
 
@@ -300,10 +297,4 @@ footer > img {
     height: 100px;
     margin-left: 40px;
     transition: .2s ease all;
-}
-
-@media only screen and (max-width: 450px) {
-    body audio {
-        margin-left: 90%;
-    }
 }
